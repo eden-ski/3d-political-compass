@@ -19,7 +19,7 @@ $(document).ready(function () { // jQuery detects state of readiness
 		}
 		numberOfQuestions = questionBank.length;
 		displayQuestion();
-	})//gtjson
+	})
 
 	function displayQuestion() {
 		$(stage).append('<div class="questionText">'
@@ -75,8 +75,5 @@ $(document).ready(function () { // jQuery detects state of readiness
 		var url = "http://localhost/resultsprocessing.php/?e=" + scores[0] + "&s=" + scores[1]
 			+ "&p=" + scores[2];
 		window.location.assign(url);
-		/* $(stage).append('<div class="questionText">You have finished the quiz!<br>'
-			+ '<br>Total questions: ' + numberOfQuestions + '<br>Correct answers: '
-			+ score + '</div>'); */
 	}
 });//doc ready
