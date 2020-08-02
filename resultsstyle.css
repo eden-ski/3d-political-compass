@@ -1,5 +1,4 @@
 body {
-  /*background: #efefef; */
   text-align: center;
   padding:0px;
   margin:0px;
@@ -22,7 +21,6 @@ footer {
   background: #efefef;
   margin-right: auto;
   width: 80%;
-  /* border: solid 2px ##efefef; */
   padding-top: 50px;
   text-align: center
 }
@@ -32,7 +30,6 @@ p {
   color: #2f2d2d;
 }
 #graph {
-  /*width: 75%; */
   display: inline-block;
 }
 #congrats {
