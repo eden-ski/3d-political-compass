@@ -1,0 +1,37 @@
+{"quizlist":[
+  {
+    "question":"K-12 education should be provided as a social service by the government.",
+    "option1":[-0.5, -0.5, 0],
+    "option2":[-0.3, -0.3, 0],
+    "option3":[0.75, 0.75, 0],
+    "option4":[1, 1, 0]
+  },
+  {
+    "question":"Education should be managed at a state level and not a federal level.",
+    "option1":[0.5, -0.5, 0],
+    "option2":[0.3, -0.3, 0],
+    "option3":[-0.5, 0.5, 0],
+    "option4":[-0.75, 0.75, 0]
+  },
+  {
+    "question":"Minority status should bear influence on opportunity.",
+    "option1":[-1, 0.5, 0],
+    "option2":[-0.75, 0.3, 0],
+    "option3":[-0.75, -0.3, 0],
+    "option4":[1, -0.5, 0]
+  },
+  {
+    "question":"Guaranteed tuition and debt-free higher education through public colleges and universities should be provided as a social service by the government.",
+    "option1":[-1.5, -1.5, 0],
+    "option2":[-1, -1, 0],
+    "option3":[0.3, 0.3, 0],
+    "option4":[0.5, 0.5, 0]
+  },
+  {
+    "question":"Alternative schooling methods create unequal opportunity and should be abolished.",
+    "option1":[-1.5, 1.5, 0],
+    "option2":[-1, 1, 0],
+    "option3":[0.3, -0.3, 0],
+    "option4":[0.5, -0.5, 0]
+  }]
+}

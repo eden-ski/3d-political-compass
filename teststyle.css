@@ -1,0 +1,95 @@
+html {
+	background:#242729;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#navContent {
+	margin:auto;
+	width:800px;
+	height:500px;
+	position:relative;
+	overflow:hidden;
+}
+#game1{
+	margin:auto;
+	width:800px;
+	height:500px;
+	right:0px;
+	position:absolute;
+}
+#game2 {
+	margin:auto;
+	width:800px;
+	height:500px;
+	right:-800px;
+	position:absolute;
+}
+.questionText {
+	font-size:27px;
+	color:#2f2d2d;
+}
+.option {
+	width: 400px;
+	height: 30px;
+	margin: 15px;
+	font-size: 18px;
+	color: #2f2d2d;
+	padding: 2px;
+	padding-left: 10px;
+	border: 2px #2f2d2d solid;
+	cursor: pointer;
+	background-color: white;
+}
+.option:hover {
+	border:#a66073 solid 2px;
+	color:#a66073;
+}
+#topbar {
+	height:50px;
+	margin:auto;
+	margin-top:15px;
+	color:#2f2d2d;
+	font-size:36px;
+	font-family: Tahoma, Geneva, sans-serif;
+	width:800px;
+	border-bottom: solid #2f2d2d 1px;
+}
+#copyright {
+  padding-left: 2%;
+  padding-right: 5%;
+  font-size: 8pt;
+  text-align: left;
+	color: #848d95;
+}
+#copyrightParagraph {
+  height: 20%;
+	background:#242729;
+  width: 100%;
+}
+#suggestions {
+  padding-left: 5%;
+  padding-right: 5%;
+	font-size: 13pt;
+  text-align: center;
+	color: #bbb8ac;
+}
+.spacer {
+	height:30px;
+}
+.bluesSpacer {
+  background: #2c3952;
+	height:5px;
+}
+@media screen and (max-width:800px) {
+	#topbar{margin-left:1%;margin-right:1%;	width:96%;}
+	#navContent{margin:1%;	width:98%;}
+	#game1{margin:1%;	width:98%;}
+	#game2{margin:1%;	width:98%;}
+}
+@media screen and (max-width:460px) {
+	.option{width:80%;margin:5%;}
+}

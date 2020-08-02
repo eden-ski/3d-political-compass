@@ -1,0 +1,90 @@
+body {
+  /*background: #efefef; */
+  text-align: center;
+  padding:0px;
+  margin:0px;
+  background: #242729;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  padding:0px;
+  margin:0px;
+}
+#mainBox {
+  width:100%;
+  background: #efefef;
+  text-align: center
+}
+#main {
+  margin-left: auto;
+  background: #efefef;
+  margin-right: auto;
+  width: 80%;
+  /* border: solid 2px ##efefef; */
+  padding-top: 50px;
+  text-align: center
+}
+p {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 12pt;
+  color: #2f2d2d;
+}
+#graph {
+  /*width: 75%; */
+  display: inline-block;
+}
+#congrats {
+	font-size: 14pt;
+}
+#results {
+	text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 24pt;
+  color: #2f2d2d;
+}
+#topbar {
+  text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 24pt;
+  color: #2f2d2d;
+}
+#text {
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+#copyright {
+  padding-left: 2%;
+  padding-right: 5%;
+  font-size: 8pt;
+  text-align: left;
+	color: #848d95;
+}
+#copyrightParagraph {
+  height: 20%;
+  text-align: center;
+	background:#242729;
+  width: 100%;
+}
+#suggestions {
+  padding-left: 5%;
+  padding-right: 5%;
+	font-size: 13pt;
+  text-align: center;
+	color: #bbb8ac;
+}
+.spacer {
+	height:30px;
+}
+.bluesSpacer {
+  background: #2c3952;
+	height:5px;
+}
+@media screen and (max-width:800px) {
+	#graph{margin:1%;	width:98%;}
+}
+@media screen and (max-width:460px) {
+	#graph{width:80%;margin:5%;}
+}
