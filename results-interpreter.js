@@ -14,16 +14,6 @@ $(document).ready(function () { // jQuery detects state of readiness
      displayResults();
   }
 
-  /* var point = new Array();
-  for (i = 0; i < scores.length; i++) {
-    point[i] = new Array;
-    point[i][0] = scores[i].id;
-    point[i][1] = scores[i].e;
-    point[i][2] = scores[i].s;
-    point[i][3] = scores[i].p;
-  }
-  console.log(point); */
-
   console.log(scores.length);
 
   if (scores.length != 1) {
@@ -58,15 +48,7 @@ $(document).ready(function () { // jQuery detects state of readiness
       z: pVal,
       mode:'markers',
       name: "Other scores"
-    }/*,
-    {
-      opacity: 0.5,
-      type: 'scatter3d',
-      x: getrandom(75 , 100),
-      y: getrandom(75 , 100),
-      z: getrandom(75 , 100),
-      mode:'markers'
-    }*/
+    }
   ];
 
   var layout = {
@@ -140,14 +122,4 @@ $(document).ready(function () { // jQuery detects state of readiness
 		$(stage).append('<div class="topbar">' + "<b>Economic:</b> " + e
       + "<br><b>Social:</b> " + s + "<br><b>Policy:</b> " + p + '</div>');
   }
-
-  /*function getrandom(num, mul) {
-    var value = [ ];
-    for(i = 0; i <= num; i++) {
-      var rand = Math.random() * mul;
-      value.push(rand);
-    }
-    return value;
-  }*/
-
 }); //doc ready
