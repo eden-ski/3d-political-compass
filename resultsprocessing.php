@@ -1,7 +1,9 @@
 <?php
-/*configure this with your own information */
+
+/* configure this with your own information */
 $db = mysqli_connect('host','username','password','database')
 or die('Error connecting to MySQL server.');
+
 ?>
 <html>
   <head>
