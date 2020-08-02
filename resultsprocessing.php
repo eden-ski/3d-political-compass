@@ -58,16 +58,12 @@ or die('Error connecting to MySQL server.');
     <script>
       var scores = <?= json_encode($v) ?>;
     </script>
-    /*<?php
+    <?php
     $e = $_GET['e'];
     $s = $_GET['s'];
     $p = $_GET['p'];
     $query = "INSERT INTO point ". "(e,s,p) ". "VALUES($e,$s,$p)";
     $retval = mysqli_query($db, $query);
-    if(! $retval ) {
-       die('Could not enter data: ');
-    }
-    echo "Entered data successfully\n";
-    ?>*/
+    ?>
   </body>
 </html>
