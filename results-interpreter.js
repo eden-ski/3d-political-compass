@@ -52,8 +52,6 @@ $(document).ready(function () { // jQuery detects state of readiness
   ];
 
   var layout = {
-    // height : 500,
-    // width : 1000,
     autosize: true,
     margin: {
       l: 30,
