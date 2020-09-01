@@ -21,9 +21,6 @@ or die('Error connecting to MySQL server.');
       <div id="main">
         <div id="results"></div>
         <div class="spacer"></div>
-        <p id="congrats">You finished the test! Now, let's see how
-          your results stack up.</p>
-        <div class="spacer"></div>
         <div id='graph'></div>
         <p id="text"><b><i>Economic Policy</i></b> refers to a government’s 
         control of monetary affairs. A 10 represents true capitalism. As 
@@ -36,6 +33,8 @@ or die('Error connecting to MySQL server.');
         <p id="text"><b><i>Foreign Policy</i></b> spans international affairs, 
         such as wars abroad, regime change, and international trade. 
         Intervention increases as we approach 10.</p>
+        <br><br>
+        <p id="congrats"><b>Analyzing Politicians</b></p>
         <p id="text">To understand these axes a bit better, we can predict how
         the four major candidates of the 2016 Presidential election might have
         scored.</p>
@@ -48,9 +47,9 @@ or die('Error connecting to MySQL server.');
         furthest left economically.</p>
         <p id="text"><b>Domestic Policy: </b>Stein and Johnson are consistently 
         opposed to mass surveillance, deportations, and harsh social 
-        restrictions, and therein earn low scores. Trump is on the entirely 
+        restrictions, and thus earn low scores. Trump is on the entirely 
         opposite end of the spectrum, as evidenced by incresed immigration
-        regulations, defunding Planned Parenthood, and threats to imprison 
+        regulations, defunding of Planned Parenthood, and threats to imprison 
         journalists. Clinton is a but harder to define, with socially liberal 
         views such as support for abortion and gay marriage, but a history that 
         has expanded mass surveillance (vote for the Patriot Act), imprisoned 
@@ -64,9 +63,6 @@ or die('Error connecting to MySQL server.');
         to a large extent, be it “take out their families” for Trump or 
         initiating a No Fly Zone in Syria for Clinton.</p>
       </div>
-      <br><br>
-      <br><br>
-      <br><br>
       <br><br>
       <br><br>
       <br><br>
