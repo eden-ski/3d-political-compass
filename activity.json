@@ -1,37 +1,107 @@
 {"quizlist":[
   {
-    "question":"K-12 education should be provided as a social service by the government.",
-    "option1":[-0.5, -0.5, 0],
-    "option2":[-0.3, -0.3, 0],
-    "option3":[0.75, 0.75, 0],
-    "option4":[1, 1, 0]
+    "question":"The private sector is more reliable and trustworthy than the public sector.",
+    "option1":[1.5, 0, 0],
+    "option2":[1, 0, 0],
+    "option3":[-1, 0, 0],
+    "option4":[-1.5, 0, 0]
   },
   {
-    "question":"Education should be managed at a state level and not a federal level.",
-    "option1":[0.5, -0.5, 0],
-    "option2":[0.3, -0.3, 0],
-    "option3":[-0.5, 0.5, 0],
-    "option4":[-0.75, 0.75, 0]
+    "question":"Single payer health care is fundamentally a good idea.",
+    "option1":[1.5, 0, 0],
+    "option2":[1, 0, 0],
+    "option3":[-1, 0, 0],
+    "option4":[-1.5, 0, 0]
+  },
+  {
+    "question":"A flat tax is more fair than a progressive tax.",
+    "option1":[1.5, 0.5, 0],
+    "option2":[1, 0.5, 0],
+    "option3":[-1, -0.5, 0],
+    "option4":[-1.5, -0.5, 0]
+  },
+  {
+    "question":"We must increase corporate regulations to curtail greenhouse gas emissions.",
+    "option1":[-1.5, -0.5, 0],
+    "option2":[-1, -0.5, 0],
+    "option3":[1, 0.5, 0],
+    "option4":[1, 0.5, 0]
+  },
+  {
+    "question":"International free trade should be expanded.",
+    "option1":[1.5, 0, -0.5],
+    "option2":[1, 0, -0.5],
+    "option3":[-1, 0, 0.5],
+    "option4":[-1.5, 0, 0.5]
+  },
+  {
+    "question":"K-12 education should be provided as a social service by the government.",
+    "option1":[-0.5, -1.5, 0],
+    "option2":[-0.5, -1, 0],
+    "option3":[0.5, 1, 0],
+    "option4":[0.5, 1.5, 0]
   },
   {
     "question":"Minority status should bear influence on opportunity.",
-    "option1":[-1, 0.5, 0],
-    "option2":[-0.75, 0.3, 0],
-    "option3":[-0.75, -0.3, 0],
-    "option4":[1, -0.5, 0]
-  },
-  {
-    "question":"Guaranteed tuition and debt-free higher education through public colleges and universities should be provided as a social service by the government.",
-    "option1":[-1.5, -1.5, 0],
-    "option2":[-1, -1, 0],
-    "option3":[0.3, 0.3, 0],
-    "option4":[0.5, 0.5, 0]
+    "option1":[-0.5, -1.5, 0],
+    "option2":[-0.5, -1, 0],
+    "option3":[0.5, 1, 0],
+    "option4":[0.5, 1.5, 0]
   },
   {
     "question":"Alternative schooling methods create unequal opportunity and should be abolished.",
-    "option1":[-1.5, 1.5, 0],
-    "option2":[-1, 1, 0],
-    "option3":[0.3, -0.3, 0],
-    "option4":[0.5, -0.5, 0]
+    "option1":[-0.5, 1.5, 0],
+    "option2":[-0.5, 1, 0],
+    "option3":[0.5, -1, 0],
+    "option4":[0.5, -1.5, 0]
+  },
+  {
+    "question":"Government surveillance should be expanded to combat terrorism.",
+    "option1":[-0.5, 1.5, 0],
+    "option2":[-0.5, 1, 0],
+    "option3":[0.5, -1, 0],
+    "option4":[0.5, -1.5, 0]
+  },
+  {
+    "question":"Marriage should not be regulated by the federal government.",
+    "option1":[0, -1.5, 0],
+    "option2":[0, -1, 0],
+    "option3":[0, 1, 0],
+    "option4":[0, 1.5, 0]
+  },
+  {
+    "question":"Our country has a moral responsibility to maintain world peace, even if it requires military action.",
+    "option1":[0, 0, 1.5],
+    "option2":[0, 0, 1],
+    "option3":[0, 0, -1],
+    "option4":[0, 0, -1.5]
+  },
+  {
+    "question":"Protectionism by means of tariffs, subsidies, import quotas, or other restrictions placed on the imports of foreign competitors are necessary to encourage home industry.",
+    "option1":[-0.5, 0, 1.5],
+    "option2":[-0.5, 0, 1],
+    "option3":[0.5, 0, -1],
+    "option4":[0.5, 0, -1.5]
+  },
+  {
+    "question":"The money spent on the military would be better spent at home.",
+    "option1":[0, -0.5, -1.5],
+    "option2":[0, -0.5, -1],
+    "option3":[0, 0.5, 1],
+    "option4":[0, 0.5, 1.5]
+  },
+  {
+    "question":"We must maintain strong ties with our allies, regardless of their actions.",
+    "option1":[0, 0, 1.5],
+    "option2":[0, 0, 1],
+    "option3":[0, 0, -1],
+    "option4":[0, 0, -1.5]
+  },
+  {
+    "question":"People who live in a nondemocratic country would prefer to live in a democratic one.",
+    "option1":[0, 0, 1.5],
+    "option2":[0, 0, 1],
+    "option3":[0, 0, -1],
+    "option4":[0, 0, -1.5]
   }]
 }
