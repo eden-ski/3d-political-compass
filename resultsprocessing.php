@@ -36,6 +36,33 @@ or die('Error connecting to MySQL server.');
         <p id="text"><b><i>Foreign Policy</i></b> spans international affairs, 
         such as wars abroad, regime change, and international trade. 
         Intervention increases as we approach 10.</p>
+        <p id="text">To understand these axes a bit better, we can predict how
+        the four major candidates of the 2016 Presidential election might have
+        scored.</p>
+        <p id="text"><b>Economic Policy: </b>Johnson, Clinton, and Trump have 
+        all emphasized deregulation at different extremes. Johnson's utopia 
+        would consist of a federal income tax of zero, while Clinton and Trump 
+        have emphasized certain limited amounts of federal control (progressive 
+        taxes and protectionism, respectively), but are in large part advocates 
+        of the same neoliberal deregulation espoused by Johnson. Stein is the 
+        furthest left economically.</p>
+        <p id="text"><b>Domestic Policy: </b>Stein and Johnson are consistently 
+        opposed to mass surveillance, deportations, and harsh social 
+        restrictions, and therein earn low scores. Trump is on the entirely 
+        opposite end of the spectrum, as evidenced by incresed immigration
+        regulations, defunding Planned Parenthood, and threats to imprison 
+        journalists. Clinton is a but harder to define, with socially liberal 
+        views such as support for abortion and gay marriage, but a history that 
+        has expanded mass surveillance (vote for the Patriot Act), imprisoned 
+        non-violent drug offenders (support for the 1994 Crime Bill), and 
+        attempted to restrict free expression (sponsorship of the Flag 
+        Protection Act of 2005).</p>
+        <p id="text"><b>Foreign Policy: </b>Johnson and Stein again find common 
+        ground with their non-interventionist, anti-war outlooks, another 
+        indicator that a progressive-libertarian alliance is not all that 
+        far-fetched. Meanwhile, both Trump and Clinton endorse interventionism 
+        to a large extent, be it “take out their families” for Trump or 
+        initiating a No Fly Zone in Syria for Clinton.</p>
       </div>
       <br><br>
       <br><br>
