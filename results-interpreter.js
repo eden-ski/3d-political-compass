@@ -41,13 +41,53 @@ $(document).ready(function () { // jQuery detects state of readiness
     },
     {
       opacity: 0.2,
-      marker: {'color': 'red'},
+      marker: {'color': 'purple'},
       type: 'scatter3d',
       x: eVal,
       y: sVal,
       z: pVal,
       mode:'markers',
       name: "Other scores"
+    },
+    {
+      opacity:1,
+      type: 'scatter3d',
+      x: [5],
+      y: [-2],
+      z: [6],
+      mode:'markers',
+      marker: {'color': 'blue'},
+      name: "Clinton"
+    },
+   {
+      opacity:1,
+      type: 'scatter3d',
+      x: [6],
+      y: [8],
+      z: [7],
+      mode:'markers',
+      marker: {'color': 'red'},
+      name: "Trump"
+    },
+   {
+      opacity:1,
+      type: 'scatter3d',
+      x: [8],
+      y: [-7.5],
+      z: [-7],
+      mode:'markers',
+      marker: {'color': 'yellow'},
+      name: "Johnson"
+    },
+    {
+      opacity:1,
+      type: 'scatter3d',
+      x: [-7],
+      y: [-8],
+      z: [-7],
+      mode:'markers',
+      marker: {'color': 'green'},
+      name: "Stein"
     }
   ];
 
