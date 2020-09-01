@@ -110,14 +110,15 @@ $(document).ready(function () { // jQuery detects state of readiness
     p = url.searchParams.get("p");
   }
 
-  function displayResults() {
-		$(stage).append('<div class="topbar">' + "<b>Economic:</b> " + e
-      + "&nbsp;&nbsp;&nbsp;&nbsp;<b>Social:</b> " + s
-      + "&nbsp;&nbsp;&nbsp;&nbsp;<b>Policy:</b> " + p + '</div>');
+ function displayResults() {
+      $(stage).append('<div class="topbar">' + "<b>Economic Policy:</b> " + e
+      + "&nbsp;&nbsp;&nbsp;&nbsp;<b>Domestic Policy:</b> " + s
+      + "&nbsp;&nbsp;&nbsp;&nbsp;<b>Foreign Policy:</b> " + p + '</div>');
   }
 
   function displayResultsTiny() {
-		$(stage).append('<div class="topbar">' + "<b>Economic:</b> " + e
-      + "<br><b>Social:</b> " + s + "<br><b>Policy:</b> " + p + '</div>');
+      $(stage).append('<div class="topbar">' + "<b>Economic Policy:</b> " + e
+      + "<br><b>Domestic Policy:</b> " + s + "<br><b>Foreign Policy:</b> " + p 
+      + '</div>');
   }
 }); //doc ready
