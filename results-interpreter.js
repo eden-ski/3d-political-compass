@@ -111,14 +111,62 @@ $(document).ready(function () { // jQuery detects state of readiness
   }
 
  function displayResults() {
-      $(stage).append('<div class="topbar">' + "<b>Economic Policy:</b> " + e
+		  $(stage).append('<div class="topbar">' + "<b>Economic Policy:</b> " + e
       + "&nbsp;&nbsp;&nbsp;&nbsp;<b>Domestic Policy:</b> " + s
       + "&nbsp;&nbsp;&nbsp;&nbsp;<b>Foreign Policy:</b> " + p + '</div>');
+      if (e < 0 && s > 0 && p > 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Authoritarian Leftist</div>');
+      }
+      if (e < 0 && s > 0 && p < 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Authoritarian Populist</div>');
+      }
+      if (e < 0 && s < 0 && p > 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Progressive Globalist</div>');
+      }
+      if (e < 0 && s < 0 && p < 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Democratic Socialist</div>');
+      }
+      if (e > 0 && s > 0 && p > 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Neoconservative</div>');
+      }
+      if (e > 0 && s > 0 && p < 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Isolationist Conservative</div>');
+      }
+      if (e > 0 && s < 0 && p > 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Neoliberal</div>');
+      }
+      if (e > 0 && s < 0 && p < 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Libertarian</div>');
+      }
   }
 
   function displayResultsTiny() {
-      $(stage).append('<div class="topbar">' + "<b>Economic Policy:</b> " + e
+		  $(stage).append('<div class="topbar">' + "<b>Economic Policy:</b> " + e
       + "<br><b>Domestic Policy:</b> " + s + "<br><b>Foreign Policy:</b> " + p 
       + '</div>');
+      if (e < 0 && s > 0 && p > 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Authoritarian Leftist</div>');
+      }
+      if (e < 0 && s > 0 && p < 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Authoritarian Populist</div>');
+      }
+      if (e < 0 && s < 0 && p > 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Progressive Globalist</div>');
+      }
+      if (e < 0 && s < 0 && p < 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Democratic Socialist</div>');
+      }
+      if (e > 0 && s > 0 && p > 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Neoconservative</div>');
+      }
+      if (e > 0 && s > 0 && p < 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Isolationist Conservative</div>');
+      }
+      if (e > 0 && s < 0 && p > 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Neoliberal</div>');
+      }
+      if (e > 0 && s < 0 && p < 0) {
+          $(stage).append('<div class="spacer"></div><div class="topbar">You scored: Libertarian</div>');
+      }
   }
 }); //doc ready
