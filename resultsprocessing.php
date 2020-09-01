@@ -25,6 +25,17 @@ or die('Error connecting to MySQL server.');
           your results stack up.</p>
         <div class="spacer"></div>
         <div id='graph'></div>
+        <p id="text"><b><i>Economic Policy</i></b> refers to a government’s 
+        control of monetary affairs. A 10 represents true capitalism. As 
+        protectionism, taxes, regulations, and social programs expand, we 
+        approach -10.</p>
+        <p id="text"><b><i>Domestic Policy</i></b> refers to social issues 
+        inside a country’s borders. More restrictions on immigration, marriage 
+        equality, reproductive rights, free speech, and drugs would constitute 
+        a 10. A -10 represents domestic social liberalism.</p>
+        <p id="text"><b><i>Foreign Policy</i></b> spans international affairs, 
+        such as wars abroad, regime change, and international trade. 
+        Intervention increases as we approach 10.</p>
       </div>
       <br><br>
       <br><br>
